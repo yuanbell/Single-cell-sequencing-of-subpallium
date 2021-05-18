@@ -5,7 +5,7 @@ Data and code for the paper
 # Introduction
 There are two main parts of analysis of this work, 
 one is single cell sequencing, 
-another is in situ sequenicng.
+another is in situ sequencing.
 
 # Single-cell sequencing
 Following several scripts for the different parts of the analysis of single cell sequencing. 
