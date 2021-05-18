@@ -3,14 +3,17 @@ Data and code for the paper
 "Single-cell transcriptomics of the origin and molecular diversity of interneurons in the human fetal brain"
 
 # Introduction
-There are individual scripts for the different parts of the analysis. Run them in this order:
+There are two main parts of analysis of this work, one is single cell sequencing, another is in situ sequenicng.
 
-1.Rscript R/Clustering of allsamples.r
-2.Rscript R/LGE_GW9_GW11.r
-3.Rscript R/MGE_GW9_GW11.r
-4.Rscript R/MGE_allweek.r
-5.Rscript R/progenitor_INPs_trajectory.r 
-6.Rscript R/progenitor_analysis.r
+Following several scripts for the different parts of the analysis of single cell sequencing. 
+Run them in this order:
+
+1. Rscript R/Clustering of allsamples.r
+2. Rscript R/LGE_GW9_GW11.r
+3. Rscript R/MGE_GW9_GW11.r
+4. Rscript R/MGE_allweek.r
+5. Rscript R/progenitor_INPs_trajectory.r 
+6. Rscript R/progenitor_analysis.r
 
 # R/Clustering of allsamples.r
 this script performs the following steps:
