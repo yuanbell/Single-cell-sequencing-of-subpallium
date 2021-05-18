@@ -20,11 +20,5 @@ Run them in this order:
 
 
 # In situ sequencing 
-In situ sequencing are performed in three barin sections, and analysis by a tools created by Zhou et al., 2021.
-
-# Reference
-Yang Zhou, Hao Yu, Qiye Li, Rongqin Ke, Guojie Zhang, IRIS: an accurate and efficient barcode calling tool for in situ sequencing. bioRxiv 2020.04.13.038901; doi: https://doi.org/10.1101/2020.04.13.038901
-
-
-
+In situ sequencing are performed in three barin sections, and analysis by a tools created by Zhou et al., 2021 (https://www.biorxiv.org/content/10.1101/2020.04.13.038901v1).
 
