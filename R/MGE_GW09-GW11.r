@@ -3,6 +3,8 @@ library(harmony)
 library(destiny)
 library(slingshot)
 library(RColorBrewer)
+library(dplyr)
+library(data.table)
 # (1)###############read data and cluster analysis
 ##read data
 project<-readRDS('~/results/project.rds')
