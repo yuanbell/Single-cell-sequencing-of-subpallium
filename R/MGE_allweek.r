@@ -1,6 +1,8 @@
 library(Seurat)
 library(destiny)
 library(slingshot)
+library(dplyr)
+library(data.table)
 
 ##(1)#################read data and clustering##################
 project<-subset(project,ident=c("MGE1","MGE2"))
