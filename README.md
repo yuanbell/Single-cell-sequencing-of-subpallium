@@ -24,4 +24,12 @@ Run them in this order:
 
 
 # In situ sequencing 
-In situ sequencing are performed in three barin sections, and analysis by a tools created by Zhou et al., 2020 (https://www.biorxiv.org/content/10.1101/2020.04.13.038901v1).
+In situ sequencing are performed in three barin sections, and processed data are contained as follow:
+
+1. ISS/GW9_CGE
+2. ISS/GW12_MGE_LGE
+3. ISS/GW12_CGE
+
+The analysis are performed by a tools created by Zhou et al., 2020 (https://www.biorxiv.org/content/10.1101/2020.04.13.038901v1).
+
+
