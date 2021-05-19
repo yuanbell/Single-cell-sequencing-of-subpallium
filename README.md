@@ -17,8 +17,12 @@ Run them in this order:
 4. Rscript R/MGE_GW9_GW11.r
 5. Rscript R/MGE_allweek.r
 6. Rscript R/LGE_GW9_GW11.r
+7. Rscript R/LGE_allweek.r
+8. Rscript R/CGE_GW9_GW11.r
+9. Rscript R/LGE_allweek.r
+10. Rscript R/Mapped_analysis.r
 
 
 # In situ sequencing 
-In situ sequencing are performed in three barin sections, and analysis by a tools created by Zhou et al., 2021 (https://www.biorxiv.org/content/10.1101/2020.04.13.038901v1).
+In situ sequencing are performed in three barin sections, and analysis by a tools created by Zhou et al., 2020 (https://www.biorxiv.org/content/10.1101/2020.04.13.038901v1).
 
