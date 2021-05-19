@@ -1,6 +1,7 @@
 library(Seurat)
 library(ggplot2)
 library(data.table)
+library(dplyr)
 
 # (1)#################read data and seurat workflow###################
 project <- readRDS('~/results/project.rds')
