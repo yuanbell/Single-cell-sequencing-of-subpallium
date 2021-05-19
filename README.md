@@ -19,8 +19,7 @@ Run them in this order:
 6. Rscript R/LGE_GW9_GW11.r
 7. Rscript R/LGE_allweek.r
 8. Rscript R/CGE_GW9_GW11.r
-9. Rscript R/LGE_allweek.r
-10. Rscript R/Mapped_analysis.r
+9. Rscript R/Mapped_analysis.r
 
 
 # In situ sequencing 
