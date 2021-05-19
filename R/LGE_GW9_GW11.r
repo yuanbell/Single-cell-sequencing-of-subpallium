@@ -1,5 +1,7 @@
 library(Seurat)
 library(monocle)
+library(dplyr)
+library(data.table)
 
 ##(1) ############################read data and clustering####################################
 project<-readRDS('~/results/project.rds')
