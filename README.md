@@ -30,6 +30,6 @@ In situ sequencing are performed in three barin sections, and processed data are
 2. ISS/GW12_MGE_LGE
 3. ISS/GW12_CGE
 
-The analysis are performed by a tools created by Zhou et al., 2020 (https://www.biorxiv.org/content/10.1101/2020.04.13.038901v1).
+The browser tool are created by Zhou et al., 2020 (https://www.biorxiv.org/content/10.1101/2020.04.13.038901v1).
 
 
