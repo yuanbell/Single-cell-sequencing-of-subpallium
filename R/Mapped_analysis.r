@@ -13,7 +13,7 @@ project<-readRDS('~/results/project.rds')
 ##pick up GW09 or GW11 cells and clusters
 project<-subset(project,cells = row.names(subset(project@meta.data,
                                                  project@meta.data$Week==GW)))
-project<-subset(project,idents=c('MGE1','MGE2','CGE1','LGE1','LGE2','LGE3','P1','P2','P3','P4','P5','pre-IN'))
+project<-subset(project,idents=c('MGE1','MGE2','CGE1','LGE1','LGE2','LGE3','P1','P2','P3','P4','P5','P6'))
 ##read M1 dataset
 M1_project<-readRDS('~/data/M1_project.rds')
 ##set cell labels
@@ -190,7 +190,7 @@ for (i in 1:5) {
 }
 celltype_table<-as.data.frame(celltype_table)
 
-celltype_table$Var1<-factor(celltype_table$Var1,levels=c('P1','P2','P3','P4','P5','pre-IN','lMGE','MGE',
+celltype_table$Var1<-factor(celltype_table$Var1,levels=c('P1','P2','P3','P4','P5','P6','lMGE','MGE',
                                'mMGE','CGE1','LGE','dLGE'))
 
 ##fig6i or j
@@ -265,7 +265,7 @@ for (i in 1:ncol(data2)) {
 data2<-as.data.frame(data2)
 data2$Frac<-frac
 colnames(data2)<-c('celltype','Mapped_celltype','Count','Fraction')
-data2$celltype<-factor(data2$celltype,levels = c('P1','P2','P3','P4','P5','pre-IN','MGE','mMGE','lMGE','CGE1','LGE',
+data2$celltype<-factor(data2$celltype,levels = c('P1','P2','P3','P4','P5','P6','MGE','mMGE','lMGE','CGE1','LGE',
                             'dLGE'))
 data2$Mapped_celltype<-factor(data2$Mapped_celltype,levels =c('SST','PVALB','VIP','ID2','NDNF'))
 data2<-subset(data2,data2$Count>0)
