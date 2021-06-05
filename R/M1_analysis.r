@@ -40,7 +40,7 @@ new_idents<-c('PVALB-1 Basket','SST-1 Martinotti','VIP-1 Bipolar','SST-2 Martino
 names(new_idents)<-levels(M1_project)
 M1_project<-RenameIdents(M1_project,new_idents)
 levels(M1_project)<-c("PVALB-1 Basket","PVALB-2 Chandelier","PVALB-3 Chandelier","SST-1 Martinotti","SST-2 Martinotti",
-                      "SST-3 Martinotti","SST-4 NPY","VIP-1 Bipolar","VIP-2 Multipolar (CCK)","ID2-1","ID2-2","NDNF-1")                 "NDNF-2"                
+                      "SST-3 Martinotti","SST-4 NPY","VIP-1 Bipolar","VIP-2 Multipolar (CCK)","ID2-1","ID2-2","NDNF-1","NDNF-2")                
 
 ##(2)###############################plot################################
 ##fig7a
