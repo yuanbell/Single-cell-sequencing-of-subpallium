@@ -60,29 +60,6 @@ linkList <- getLinkList(weightMat, reportMax=1000)
 ##export table and visable by Cytoscope
 write.table(linkList,'CGE_linlist.txt',row.names = F,col.names = T,sep = ',')
 
-##GO analysis
-
-GO_TOX3<-enrichGO(gene=subset(linkList,linkList$regulatoryGene=='TOX3')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
-                  ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
-GO_MEIS2<-enrichGO(gene=subset(linkList,linkList$regulatoryGene=='MEIS2')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
-                   ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
-GO_ARX<-enrichGO(gene=subset(linkList,linkList$regulatoryGene=='ARX')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
-                 ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
-GO_CSRNP3<-enrichGO(gene=subset(linkList,linkList$regulatoryGene=='CSRNP3')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
-                    ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
-GO_DLX5<-enrichGO(gene=subset(linkList,linkList$regulatoryGene=='DLX5')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
-                  ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
-GO_HES6<-enrichGO(gene=subset(linkList,linkList$regulatoryGene=='HES6')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
-                  ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
-GO_MYT1L<-enrichGO(gene=subset(linkList,linkList$regulatoryGene=='MYT1L')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
-                   ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
-GO_NR2F1<-enrichGO(gene = subset(linkList,linkList$regulatoryGene=='NR2F1')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
-                   ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
-GO_ST18<-enrichGO(gene = subset(linkList,linkList$regulatoryGene=='ST18')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
-                  ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
-GO_ZNF608<-enrichGO(gene = subset(linkList,linkList$regulatoryGene=='ZNF608')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
-                    ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
-
 ###GO analysis
 GO_TOX3<-enrichGO(gene=subset(linkList,linkList$regulatoryGene=='TOX3')[,2],OrgDb =org.Hs.eg.db,keyType = 'SYMBOL',
                   ont = 'BP',pvalueCutoff = 0.05,qvalueCutoff = 0.05)
