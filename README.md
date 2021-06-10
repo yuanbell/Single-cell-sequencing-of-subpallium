@@ -30,6 +30,5 @@ In situ sequencing are performed in three barin sections, and processed data are
 2. ISS/GW12_MGE_LGE
 3. ISS/GW12_CGE
 
-The browser tool are created by Zhou et al., 2020 (https://www.biorxiv.org/content/10.1101/2020.04.13.038901v1).
-We also provide a web page for browse the distribution of single/multiple genes in sections performed by in situ sequencing (http://www.taolabissbrowser.site:3838/).
+We provide a web page for browse the distribution of single/multiple genes in sections performed by in situ sequencing (http://www.taolabissbrowser.site:3838/).
 
