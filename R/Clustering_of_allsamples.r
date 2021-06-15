@@ -38,7 +38,7 @@ for (i in 1:length(project.data)) {
 ###merge cell matrix of 4 samples
 cm<-cbind(project.data[[1]],project.data[[2]],project.data[[3]],project.data[[4]])
 
-###Ceeat metadata
+###Create metadata
 md<-rep(c('GW09','GW10','GW11','GW12'),times=c(length(colnames(project.data[[1]])),
                                                      length(colnames(project.data[[2]])),
                                                      length(colnames(project.data[[3]])),
