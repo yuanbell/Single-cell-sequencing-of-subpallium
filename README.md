@@ -1,6 +1,6 @@
 Data and code for the paper 
 
-"Single-cell transcriptomics of the origin and molecular diversity of interneurons in the human fetal brain"
+"Yu, Y., Zeng, Z., Xie, D. et al. Interneuron origin and molecular diversity in the human fetal brain. Nat Neurosci (2021). https://doi.org/10.1038/s41593-021-00940-3"
 
 # Introduction
 There are two main parts of analysis of this work, 
