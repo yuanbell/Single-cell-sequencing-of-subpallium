@@ -1,6 +1,6 @@
 Data and code for the paper 
 
-"Yu, Y., Zeng, Z., Xie, D. et al. Interneuron origin and molecular diversity in the human fetal brain. Nat Neurosci (2021). https://doi.org/10.1038/s41593-021-00940-3"
+Yu, Y., Zeng, Z., Xie, D. et al. Interneuron origin and molecular diversity in the human fetal brain. Nat Neurosci (2021). https://doi.org/10.1038/s41593-021-00940-3
 
 # Introduction
 There are two main parts of analysis of this work, 
